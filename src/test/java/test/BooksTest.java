@@ -13,7 +13,7 @@ import pages.SearchPage;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class TestBooks {
+public class BooksTest {
 
     public static WebDriver driver;
     public static BookPage bookPage;
