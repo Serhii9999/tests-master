@@ -41,20 +41,17 @@ public class TestBooks {
         String expectedAuthor = "Joshua Bloch";
         String expectedBestseller = "true";
 
-        org.testng.Assert.assertTrue(actual.contains(expectedTitle));
-        org.testng.Assert.assertTrue(actual.contains(expectedAuthor));
-        org.testng.Assert.assertTrue(actual.contains(expectedBestseller));
+      Assert.assertTrue(actual.contains(expectedTitle));
+       Assert.assertTrue(actual.contains(expectedAuthor));
+        Assert.assertTrue(actual.contains(expectedBestseller));
 
     }
-
-
 
 
     @Test
     public void testBookDataExistence() {
         String books = bookPage.addBooks().toString();
         Assert.assertNotNull(books);
-
 
     }
 

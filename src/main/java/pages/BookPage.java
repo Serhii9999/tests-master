@@ -96,7 +96,7 @@ public class BookPage {
             }
             books.add(new Book(title, author, price, bestSeller));
         }
-        books.forEach(System.out::println);
+
 
         return books;
     }
